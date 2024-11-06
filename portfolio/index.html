@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KISHAN Portfolio</title>
+    <link rel="icon" href="assets/images/rupankarsaha/phone-background.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/2c6faefed4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate Student</p>
+                <h1>Hi, I'm <span>KISHAN REDDY</span><br> from AndhraPradesh</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://res.cloudinary.com/diqmmbpxl/image/upload/v1730558260/WhatsApp_Image_2024-11-02_at_20.02.15_24237036_aqyekn.jpg" alt="Profile pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there!
+
+                        I'm kishan reddy , an undergraduate student in computer science from Andhrapradesh. My
+                        passion lies in software development, with a particular focus on c++ and data
+                        structures and algorithms (DSA). I love diving into code and exploring new technologies.
+                        <br><br>
+                        My interests extend to WEB development, and I enjoy collaborating on open-source
+                        projects. I actively contribute to my GitHub repositories and engage with the developer
+                        community on LinkedIn and other platforms. Connecting with other developers and sharing
+                        knowledge is something I find incredibly rewarding.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br></li>
+                            <li><span>C Language</span><br></li>
+                            <li><span>C++</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Java</span><br></li>
+                            <li><span>Javascript</span><br></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>STUDENT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027-current</span><br>B.Tech CSE from SRM University chennai, CGPA - 8.3</li>
+                            <li><span>2023</span><br>Standard XII from Narayana, Marks - 74%</li>
+                            <li><span>2021</span><br>Standard X from Sri Chaitanya , Marks - 85%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2>
+                    <p>I have a proven track record of designing intuitive and visually appealing Android apps that
+                        enhance user experience. My expertise includes modern design principles, user-centric
+                        interfaces, and seamless functionality.</p>
+                    <a href="https://github.com/Ckishan">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in creating modern, responsive websites that deliver exceptional user experiences
+                        across all devices. My designs focus on aesthetics, usability, and performance to ensure your
+                        online presence stands out.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Logo Design</h2>
+                    <p>I craft distinctive and memorable logos that effectively capture and communicate your brand's
+                        identity. My designs blend creativity and strategic thinking to ensure your logo leaves a
+                        lasting impression.</p>
+                    <a href="https://www.figma.com/design/GDnOpovYFzfd2bcP53Wf3A/App-Icon?t=hPtbvHCMJfm9QMvX-1">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Certificates</h1>
+            
+           <div> 
+
+            <h4 style="color: rgba(216, 249, 0, 0.55);"> Currently writting certification exams</h4>
+           </div> 
+        </div>
+    </div>
+    <!-----------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>chappidikishanreddy015@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Ckishan"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chappidi-kishan-reddy-5448902a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/kishanreddy264?igsh=MTlsa21nZ3QxdjhpOQ=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ kishan reddy <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <button id="goToTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+    <script src="main.js"></script>
+</body>
+
+</html>
